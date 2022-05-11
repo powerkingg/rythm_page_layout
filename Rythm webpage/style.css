@@ -18,6 +18,10 @@ body {
     color: #666666;
 }
 
+a{
+    text-decoration: none;
+}
+
 li {
     list-style: none;
 }
@@ -45,16 +49,33 @@ main{
 
 .header__container {
     display: flex;
+    gap: 131px;
+    min-height: 152px;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+    
 }
 
-.header__logo {}
+.header__logo {   }
 
 .header__menu {}
 
 .menu {}
 
-.menu__list {}
+.menu__list {
+    display: flex;
+    gap: 56px;
+}
 
 .menu__item {}
 
-.menu__link {}
+.menu__link {
+    color: rgba(18,18,18,0.4);
+    font-weight: 500;
+}
+
+.menu__link:hover{
+    color: #f50;
+    transition: 0.5s;
+}
+
